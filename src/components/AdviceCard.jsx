@@ -34,7 +34,7 @@ const AdviceCard = () => {
           <h6 className="text-xs text-Green-300">Advice #{advice.id}</h6>
           <p>"{advice.advice}"</p>
 
-          <div className="hidden sm:flex">
+          <div className="hidden sm:block">
             <img src="/images/pattern-divider-desktop.svg" alt="pattern divider" />
           </div>
           <div className="flex sm:hidden">
